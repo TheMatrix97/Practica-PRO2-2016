@@ -1,0 +1,285 @@
+afegir text "lorem ipsum, un cuento"
+afegir text "Don Quijote de la Mancha"
+afegir text "Pangrama"
+
+info ?
+error
+frases "hola" ?
+error
+frases {hola} ?
+error
+afegir cita 1 3
+error
+totes cites ?
+cites ?
+error
+substitueix "vaya" per "error"
+error
+afegir text "error"
+triar text {error}
+contingut ?
+1 esto es un test.
+info ?
+error "error" 1 4
+Cites Associades:
+afegir cita 1 1
+cites ?
+e1
+1 esto es un test.
+error "error"
+totes cites ?
+e1
+1 esto es un test.
+error "error"
+eliminar text
+triar text {Cervantes manera tristeza dijo}
+frases ({don} & {Quijote}) ?
+1 Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+3 Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+frases (({cosas}      &        {han})     |  {don}) ?
+1 Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+2 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+3 Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+4 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+frases {Quijote} ?
+1 Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+3 Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+frases "Don quijote" ?
+taula de frequencies ?
+que 16
+de 12
+el 10
+no 8
+bien 6
+y 4
+es 4
+mal 4
+más 4
+otro 4
+las 3
+suceden 3
+a 2
+ha 2
+le 2
+ni 2
+se 2
+si 2
+un 2
+ya 2
+con 2
+don 2
+han 2
+nos 2
+son 2
+dijo 2
+hace 2
+sean 2
+Todas 2
+aquí 2
+cerca 2
+cosas 2
+estas 2
+está 2
+mucho 2
+sigue 2
+tanta 2
+Sancho 2
+durado 2
+hombre 2
+manera 2
+porque 2
+presto 2
+tiempo 2
+Quijote 2
+Sábete 2
+aquella 2
+posible 2
+serenar 2
+durables 2
+habiendo 2
+muestras 2
+señales 2
+tristeza 2
+borrascas 2
+viéndole 2
+sucedernos 2
+Y 1
+me 1
+te 1
+ti 1
+mí 1
+por 1
+Así 1
+cabe 1
+pues 1
+debes 1
+parte 1
+dellas.Y 1
+congojarte 1
+desgracias 1
+substitueix "Don" per "Mister"
+contingut ?
+1 Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+2 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+3 Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+4 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+taula de frequencies ?
+que 16
+de 12
+el 10
+no 8
+bien 6
+y 4
+es 4
+mal 4
+más 4
+otro 4
+las 3
+suceden 3
+a 2
+ha 2
+le 2
+ni 2
+se 2
+si 2
+un 2
+ya 2
+con 2
+don 2
+han 2
+nos 2
+son 2
+dijo 2
+hace 2
+sean 2
+Todas 2
+aquí 2
+cerca 2
+cosas 2
+estas 2
+está 2
+mucho 2
+sigue 2
+tanta 2
+Sancho 2
+durado 2
+hombre 2
+manera 2
+porque 2
+presto 2
+tiempo 2
+Quijote 2
+Sábete 2
+aquella 2
+posible 2
+serenar 2
+durables 2
+habiendo 2
+muestras 2
+señales 2
+tristeza 2
+borrascas 2
+viéndole 2
+sucedernos 2
+Y 1
+me 1
+te 1
+ti 1
+mí 1
+por 1
+Así 1
+cabe 1
+pues 1
+debes 1
+parte 1
+dellas.Y 1
+congojarte 1
+desgracias 1
+textos autor "anonimo" ?
+"lorem ipsum, un cuento"
+tots textos ?
+Miguel de Cervantes "Don Quijote de la Mancha"
+anomimo "Pangrama"
+anonimo "lorem ipsum, un cuento"
+tots autors ?
+Miguel de Cervantes 1 4 182
+anomimo 1 3 24
+anonimo 1 31 190
+info ?
+Miguel de Cervantes "Don Quijote de la Mancha" 4 182
+Cites Associades:
+autor ?
+Miguel de Cervantes
+nombre de frases ?
+4
+nombre de paraules ?
+182
+afegir cita 1 3
+afegir cita 1 1
+afegir cita 2 2
+afegir cita 1 2
+afegir cita 3 3
+afegir cita 1 3
+error
+afegir cita 1 2
+error
+afegir cita 3 3
+error
+afegir cita 4 4
+afegir cita 1 4
+afegir cita 5 5
+error
+afegir cita 1 5
+error
+afegir cita 1 6
+error
+afegir cita 6 6
+error
+afegir cita 7 7
+error
+afegir cita 1 10
+error
+afegir cita 10 1
+error
+totes cites ?
+MdC1
+1 Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+2 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+3 Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+Miguel de Cervantes "Don Quijote de la Mancha"
+MdC2
+1 Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+Miguel de Cervantes "Don Quijote de la Mancha"
+MdC3
+2 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+Miguel de Cervantes "Don Quijote de la Mancha"
+MdC4
+1 Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+2 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+Miguel de Cervantes "Don Quijote de la Mancha"
+MdC5
+3 Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+Miguel de Cervantes "Don Quijote de la Mancha"
+MdC6
+4 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+Miguel de Cervantes "Don Quijote de la Mancha"
+MdC7
+1 Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+2 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+3 Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
+4 Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca.
+Miguel de Cervantes "Don Quijote de la Mancha"
+e1
+1 esto es un test.
+error "error"
+eliminar cita "MdC1"
+eliminar cita "MdC1342534532"
+error
+cites autor "anonimo" ?
+afegir text "test"
+frases 11 12 ?
+error
+frases 50 70 ?
+error
+frases 3 2 ?
+error
